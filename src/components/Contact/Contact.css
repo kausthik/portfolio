@@ -5,6 +5,7 @@ margin:120px auto;
 }
 
 .contact-title{
+color: white;
 text-align:center;
 font-size:36px;
 margin-bottom:50px;
@@ -97,7 +98,7 @@ padding:12px;
 border:none;
 border-radius:8px;
 
-background:#ff6b9a;
+background:blue;
 color:white;
 font-weight:500;
 
@@ -106,7 +107,7 @@ transition:0.3s;
 }
 
 .contact-form button:hover{
-background:#ff4d84;
+background:rgb(4, 4, 172);
 }
 
 @media (max-width:900px){

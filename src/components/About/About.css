@@ -33,7 +33,7 @@ margin-bottom:15px;
 .about-text{
 max-width:650px;
 margin:20px auto;
-color:#555;
+color:rgb(245, 243, 253);
 line-height:1.6;
 }
 
@@ -52,7 +52,7 @@ margin-right:8px;
 padding:12px 28px;
 border:none;
 border-radius:30px;
-background:linear-gradient(135deg,#ff6b9a,#4da6ff);
+background: rgb(2, 2, 187);
 color:white;
 font-weight:500;
 font-size:15px;
@@ -139,4 +139,8 @@ align-items:center;
 grid-template-columns:1fr;
 }
 
+}
+
+h1{
+    color: blue;
 }
