@@ -1,0 +1,88 @@
+.experience{
+width:90%;
+max-width:850px;
+margin:60px auto;
+padding-top:0;
+}
+
+.exp-title{
+text-align:center;
+font-size:36px;
+margin-bottom:50px;
+}
+
+.timeline{
+position:relative;
+border-left:2px solid #e6e6e6;
+padding-left:35px;
+}
+
+.timeline-item{
+margin-bottom:35px;
+position:relative;
+}
+
+.timeline-dot{
+width:12px;
+height:12px;
+background:#ff6b9a;
+border-radius:50%;
+position:absolute;
+left:-41px;
+top:5px;
+}
+
+.exp-card{
+background:white;
+padding:18px 20px;
+border-radius:12px;
+box-shadow:0 6px 18px rgba(0,0,0,0.05);
+}
+
+.exp-header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:5px;
+}
+
+.exp-header h3{
+font-size:17px;
+}
+
+.exp-header span{
+font-size:13px;
+color:#777;
+}
+
+.exp-card h4{
+font-size:14px;
+margin-bottom:8px;
+color:#666;
+}
+
+.exp-card ul{
+padding-left:16px;
+margin-bottom:10px;
+}
+
+.exp-card li{
+font-size:13px;
+margin-bottom:4px;
+}
+
+.tech-stack h5{
+font-size:13px;
+margin-bottom:6px;
+color:#555;
+}
+
+.tech-tags span{
+display:inline-block;
+background:#f4f4f4;
+padding:4px 9px;
+border-radius:20px;
+font-size:11px;
+margin-right:5px;
+margin-top:4px;
+}
