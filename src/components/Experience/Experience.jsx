@@ -1,64 +1,49 @@
 import "./Experience.css";
 
 function Experience() {
-  const experiences = [
-    {
-      role: "Web Developer Intern",
-      org: "National Institute of Technology Arunachal Pradesh",
-      date: "Dec 2025 – Present",
-      location: "Jote, Arunachal Pradesh",
-      points: [
-        "Developing the official website of NIT Arunachal Pradesh from scratch as part of the web development internship.",
-        "Built responsive and user-friendly interfaces using modern frontend technologies to ensure seamless experience across devices.",
-        "Integrated frontend components with backend APIs to enable dynamic data rendering and smooth interaction with the system.",
-      ],
-      tech: [
-        "Next.js",
-        "TypeScript",
-        "Tailwind CSS",
-        "PostgreSQL",
-        "Fastify",
-        "Docker",
-      ],
-    },
+ const experiences = [
+  {
+    role: "Software Development Intern",
+    org: "National Institute of Technology Arunachal Pradesh",
+    date: "Dec 2025 – Mar 2026",
+    location: "Jote, Arunachal Pradesh",
+    points: [
+      "Designed and deployed scalable full-stack web architecture using Next.js, TypeScript, PostgreSQL, and Fastify, supporting 5000+ users.",
+      "Led code reviews and managed 50+ pull requests, ensuring clean architecture, coding standards, and maintainable codebase.",
+      "Resolved 25+ bugs and optimized backend APIs and database queries, improving system stability and response time.",
+    ],
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Fastify",
+      "Docker",
+    ],
+  },
 
-    {
-      role: "Hackathon Winner (1st Runner Up)",
-      org: "HackDawn – NIT Arunachal Pradesh",
-      date: "Nov 2025",
-      points: [
-        "Built 'AgriHill', a platform connecting North-East farmers with local vendors and buyers across different regions.",
-        "Developed features for product listing, vendor discovery, and seamless communication between farmers and buyers.",
-        "Collaborated in a team of 5 developers and presented the solution to mentors and judges during the hackathon.",
-      ],
-      tech: ["React", "Node.js", "Firebase"],
-    },
+  {
+    role: "Hackathon Winner",
+    org: "CAN Hackathon (NERIST)",
+    date: "2025",
+    points: [
+      "Built an MVP in 6 hours to solve a real-world logistics problem during the hackathon.",
+      "Collaborated in a team to rapidly design, develop, and present a working solution under strict time constraints.",
+    ],
+    tech: ["React", "Node.js"],
+  },
 
-    {
-      role: "Secretary",
-      org: "Coding Pundit - Official Coding Club of NIT Arunachal Pradesh",
-      date: "July 2025 – Present",
-      points: [
-        "Organize and coordinate coding contests, technical workshops, and hackathons for students.",
-        "Mentor junior students in Data Structures & Algorithms and web development fundamentals.",
-        "Collaborate with the core team to plan technical events and increase student participation in competitive programming.",
-      ],
-      tech: ["Leadership", "Event Management"],
-    },
-    {
-      role: "Frontend Developer Intern",
-      org: "Prakash.AI Private Limited",
-      date: "June 2025 – July 2025",
-      location: "Virtual",
-      points: [
-        "Developed a fully responsive CCTV store website using React.js, HTML, CSS, and JavaScript, improving user engagement and online presence.",
-        "Implemented seamless multi-page navigation using React Router.",
-        "Built modern and reusable UI components ensuring cross-device compatibility.",
-      ],
-      tech: ["React.js", "JavaScript", "HTML", "CSS", "React Router"],
-    },
-  ];
-
+  {
+    role: "Vice President",
+    org: "Coding Pundit - Coding Club of NIT Arunachal Pradesh",
+    date: "2025 – Present",
+    points: [
+      "Mentored junior students in Data Structures & Algorithms and web development.",
+      "Organized coding contests, workshops, and technical events to boost student participation.",
+      "Collaborated with the core team to manage and execute technical initiatives.",
+    ],
+    tech: ["Leadership", "Event Management"],
+  },
+];
   return (
     <section id="experience" className="experience">
       <h2 className="exp-title">Experiences</h2>
