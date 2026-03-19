@@ -43,7 +43,7 @@ function About() {
           </button>
 
           <a
-            href="https://drive.google.com/file/d/1ZtaAVSI-7euB4ymS-Kx2lBza1uI-SfBt/view"
+            href="https://drive.google.com/file/d/1QSmgNfpfBi6I0woWgsyWanGUI3Oap9Qt/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >

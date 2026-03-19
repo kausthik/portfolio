@@ -19,14 +19,14 @@ function Contact() {
 
    emailjs
      .send(
-       "service_59tj0sj",
-       "template_pa0r2i4",
+       "service_jlbbfa6",
+       "template_rt2glha",
        {
          from_name: form.name,
          from_email: form.email,
          message: form.message,
        },
-       "UzjzjomChzqQFU1oM",
+       "QLXJgrDI5Ed4V9l25",
      )
      .then(() => {
        alert("Message Sent Successfully!");
@@ -53,7 +53,7 @@ function Contact() {
 
           <div className="contact-links">
             <a
-              href="mailto:bhumikanew21@gmail.com"
+              href="mailto:kaushal.kg88@gmail.com"
               target="_blank"
               className="contact-item"
             >
@@ -62,7 +62,7 @@ function Contact() {
             </a>
 
             <a
-              href="https://www.linkedin.com/in/bhumika-gupta-84ba7a313/"
+              href="https://www.linkedin.com/in/kaushalkumar08/"
               target="_blank"
               className="contact-item"
             >
@@ -71,7 +71,7 @@ function Contact() {
             </a>
 
             <a
-              href="https://github.com/BhumikaCoder21"
+              href="https://github.com/kausthik"
               target="_blank"
               className="contact-item"
             >
@@ -79,7 +79,7 @@ function Contact() {
               <span>GitHub</span>
             </a>
 
-            <a href="tel:7268932935" className="contact-item">
+            <a href="tel:8368452516" className="contact-item">
               <FaPhone />
               <span>Phone</span>
             </a>

@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <nav className="navbar">
 
-      <div className="logo">Bhumika Gupta</div>
+      <div className="logo">Kaushal Kumar</div>
 
       <ul className={menuOpen ? "nav-links active" : "nav-links"}>
         <li>

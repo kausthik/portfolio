@@ -6,37 +6,21 @@ function Projects() {
 
   const projects = [
     {
-      title: "Campus Ride",
-      desc: "College ride sharing website",
+      title: "Campus Connect",
+      desc: "Multi-vendor campus e-commerce platform with 100+ products and optimized order processing using Redis, BullMQ, and Elasticsearch.",
+      link: "https://connect.nitap.ac.in/",
+    },
+    {
+      title: "Rent-or-Share Platform",
+      desc: "Full-stack ride-sharing platform with real-time posting, filtering system, and reduced ride discovery time by ~40%.",
       link: "https://rent-and-share.vercel.app/main-page",
     },
     {
-      title: "Shortest Path Finder",
-      desc: "Visualizes the shortest route between two or more points.",
-      link: "https://bhumikacoder21.github.io/ShortestPath/",
-    },
-    {
-      title: "NIT Arunachal Pradesh",
-      desc: "Official Website of National Institute of Technology Arunachal Pradesh",
-      link: "https://beta.nitap.ac.in",
-    },
-    {
-      title: "Darpan CCTV",
-      desc: "A CCTV store website to showcase its product",
-      link: "https://cctv-store.vercel.app/",
-    },
-    {
-      title: "Weather App",
-      desc: "A website that allows users to search weather data by city or current location",
-      link: "https://bhumikacoder21.github.io/Weather-App/",
-    },
-    {
-      title: "Portfolio Website",
-      desc: "Modern portfolio using React",
-      link: "#",
+      title: "ANPR System",
+      desc: "YOLOv5-based number plate recognition system with ~85% accuracy and OCR pipeline using OpenCV and EasyOCR.",
+      link: "https://github.com/kausthik/automatic-number-plate-recognition",
     },
   ];
-
   const visibleProjects = showAll ? projects : projects.slice(0, 3);
 
   return (
